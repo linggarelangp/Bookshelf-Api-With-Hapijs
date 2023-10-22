@@ -1,0 +1,24 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "API bookshelf dicoding using nodejs and hapijs",
+  "main": "./src/server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/server.mjs",
+    "start-dev": "nodemon ./src/server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext js,mjs"
+  },
+  "author": "linggarelangp",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nanoid": "^5.0.1",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb-base": "^15.0.0"
+  }
+}
